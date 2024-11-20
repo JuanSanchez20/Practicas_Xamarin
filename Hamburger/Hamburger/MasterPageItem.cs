@@ -13,5 +13,8 @@ namespace Hamburger
         public string IconSource { get; set; }
 
         public Type TargetType { get; set; }
+
+        // Propiedad adicional para identificar si es un botón de acción
+        public Action Action { get; set; }  // Action es una delegación que puede ejecutar una acción cuando se selecciona el ítem
     }
 }
