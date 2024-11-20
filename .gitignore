@@ -1,0 +1,19 @@
+# Archivos de configuración de Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sdf
+
+# Carpetas generadas automáticamente
+.vs/
+bin/
+obj/
+
+# Archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración y caché
+*.cache
+*.json
