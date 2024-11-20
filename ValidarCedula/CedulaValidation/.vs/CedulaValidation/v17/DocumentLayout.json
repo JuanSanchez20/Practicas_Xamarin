@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\Practicas_Xamarin\\ValidarCedula\\CedulaValidation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C43A73-A38F-4FBA-B2A8-7878C21E9A45}|CedulaValidation\\CedulaValidation.csproj|c:\\users\\asus\\source\\repos\\practicas_xamarin\\validarcedula\\cedulavalidation\\cedulavalidation\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C43A73-A38F-4FBA-B2A8-7878C21E9A45}|CedulaValidation\\CedulaValidation.csproj|solutionrelative:cedulavalidation\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C43A73-A38F-4FBA-B2A8-7878C21E9A45}|CedulaValidation\\CedulaValidation.csproj|c:\\users\\asus\\source\\repos\\practicas_xamarin\\validarcedula\\cedulavalidation\\cedulavalidation\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D6C43A73-A38F-4FBA-B2A8-7878C21E9A45}|CedulaValidation\\CedulaValidation.csproj|solutionrelative:cedulavalidation\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Practicas_Xamarin\\ValidarCedula\\CedulaValidation\\CedulaValidation\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "CedulaValidation\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Practicas_Xamarin\\ValidarCedula\\CedulaValidation\\CedulaValidation\\MainPage.xaml.cs",
+              "RelativeToolTip": "CedulaValidation\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T02:09:24.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Practicas_Xamarin\\ValidarCedula\\CedulaValidation\\CedulaValidation\\MainPage.xaml",
+              "RelativeDocumentMoniker": "CedulaValidation\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Practicas_Xamarin\\ValidarCedula\\CedulaValidation\\CedulaValidation\\MainPage.xaml",
+              "RelativeToolTip": "CedulaValidation\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-20T02:09:10.612Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

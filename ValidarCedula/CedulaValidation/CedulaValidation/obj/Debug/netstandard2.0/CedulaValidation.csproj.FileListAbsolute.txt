@@ -1,0 +1,15 @@
+C:\Users\ASUS\source\repos\Practicas_Xamarin\ValidarCedula\CedulaValidation\CedulaValidation\bin\Debug\netstandard2.0\CedulaValidation.deps.json
+C:\Users\ASUS\source\repos\Practicas_Xamarin\ValidarCedula\CedulaValidation\CedulaValidation\bin\Debug\netstandard2.0\CedulaValidation.dll
+C:\Users\ASUS\source\repos\Practicas_Xamarin\ValidarCedula\CedulaValidation\CedulaValidation\bin\Debug\netstandard2.0\ref\CedulaValidation.dll
+C:\Users\ASUS\source\repos\Practicas_Xamarin\ValidarCedula\CedulaValidation\CedulaValidation\bin\Debug\netstandard2.0\CedulaValidation.pdb
+C:\Users\ASUS\source\repos\Practicas_Xamarin\ValidarCedula\CedulaValidation\CedulaValidation\obj\Debug\netstandard2.0\CedulaValidation.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\Practicas_Xamarin\ValidarCedula\CedulaValidation\CedulaValidation\obj\Debug\netstandard2.0\CedulaValidation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\Practicas_Xamarin\ValidarCedula\CedulaValidation\CedulaValidation\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ASUS\source\repos\Practicas_Xamarin\ValidarCedula\CedulaValidation\CedulaValidation\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ASUS\source\repos\Practicas_Xamarin\ValidarCedula\CedulaValidation\CedulaValidation\obj\Debug\netstandard2.0\CedulaValidation.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\Practicas_Xamarin\ValidarCedula\CedulaValidation\CedulaValidation\obj\Debug\netstandard2.0\CedulaValidation.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\Practicas_Xamarin\ValidarCedula\CedulaValidation\CedulaValidation\obj\Debug\netstandard2.0\CedulaValidation.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Practicas_Xamarin\ValidarCedula\CedulaValidation\CedulaValidation\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ASUS\source\repos\Practicas_Xamarin\ValidarCedula\CedulaValidation\CedulaValidation\obj\Debug\netstandard2.0\CedulaValidation.dll
+C:\Users\ASUS\source\repos\Practicas_Xamarin\ValidarCedula\CedulaValidation\CedulaValidation\obj\Debug\netstandard2.0\refint\CedulaValidation.dll
+C:\Users\ASUS\source\repos\Practicas_Xamarin\ValidarCedula\CedulaValidation\CedulaValidation\obj\Debug\netstandard2.0\CedulaValidation.pdb

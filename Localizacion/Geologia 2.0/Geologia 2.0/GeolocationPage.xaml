@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GeolocationApp.GeolocationPage"
+             Title="Geolocalización">
+    <StackLayout Padding="20">
+        <Label Text="Ubicación Actual" FontSize="Large" />
+        <Label x:Name="latitudeLabel" Text="Latitud: " />
+        <Label x:Name="longitudeLabel" Text="Longitud: " />
+        <Button Text="Obtener Ubicación" Clicked="OnGetLocationClicked" />
+        <Button Text="Iniciar Rastreo de Ubicación" Clicked="OnStartTrackingClicked" />
+        <Button Text="Detener Rastreo de Ubicación" Clicked="OnStopTrackingClicked" />
+    </StackLayout>
+</ContentPage>
