@@ -5,6 +5,7 @@
              Title="Master">
     <ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand" Padding="30">
+            <Label Text="Opciones" TextColor="White" FontSize="35" />
             <ListView x:Name="listView" VerticalOptions="FillAndExpand" 
                       SeparatorVisibility="None"
                       ItemSelected="ListView_OnItemSelected">
