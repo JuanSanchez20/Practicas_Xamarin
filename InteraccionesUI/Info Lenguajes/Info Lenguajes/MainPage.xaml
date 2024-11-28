@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Info_Lenguajes.MainPage">
+
+    <ContentPage.Resources>
+        <!-- Estilo para los Frames -->
+        <Style TargetType="Frame">
+            <Setter Property="BackgroundColor" Value="LightBlue" />
+            <Setter Property="CornerRadius" Value="20" />
+            <Setter Property="Margin" Value="10" />
+            <Setter Property="HasShadow" Value="True" />
+        </Style>
+
+        <!-- Estilo para los Labels -->
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="FontSize" Value="Medium" />
+            <Setter Property="Margin" Value="0, 4" />
+        </Style>
+
+        <!-- Estilo para los Títulos -->
+        <Style x:Key="TitleLabel" TargetType="Label">
+            <Setter Property="TextColor" Value="#273746" />
+            <Setter Property="FontSize" Value="Large" />
+            <Setter Property="FontAttributes" Value="Bold" />
+            <Setter Property="HorizontalTextAlignment" Value="Center" />
+            <Setter Property="Margin" Value="0, 10" />
+        </Style>
+
+        <!-- Estilos de las Imagenes-->
+        <Style TargetType="Image">
+            <Setter Property="FlexLayout.Order" Value="-1" />
+            <Setter Property="FlexLayout.AlignSelf" Value="Center" />
+        </Style>
+        
+        <!-- Estilo para los Botones -->
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor" Value="#2E86C1" />
+            <Setter Property="TextColor" Value="White" />
+            <Setter Property="CornerRadius" Value="20" />
+            <Setter Property="Margin" Value="5, 10" />
+        </Style>
+    </ContentPage.Resources>
+
+    <StackLayout>
+        
+        <Frame BorderColor="Red"
+               CornerRadius="10"
+               HasShadow="True"
+               BackgroundColor="GreenYellow">
+            <Label Text="Lenguajes Más Conocidos" FontSize="26" TextColor="White" HorizontalTextAlignment="Center" />
+        </Frame>
+
+        <ScrollView Orientation="Both">
+
+            <FlexLayout Direction="Row" Wrap="NoWrap" AlignItems="Center">
+                <!-- Python -->
+                <Frame WidthRequest="310">
+                    <StackLayout>
+                        <Label Text="Python" Style="{StaticResource TitleLabel}" />
+                        <Label Text="Python es un lenguaje de programación interpretado, de alto nivel y propósito general." />
+                        <Label Text="Destaca en: Desarrollo web, ciencia de datos e inteligencia artificial." />
+                        <Label Text="IDE recomendado: PyCharm, Visual Studio, Spyder." />
+                        <Label Text="Creado en: 1991, por Guido van Rossum." />
+
+                        <Image Source="https://gss-technology.com/wp-content/uploads/2021/07/round7.png"
+                                   WidthRequest="280"
+                                   HeightRequest="200" />
+
+                        <Button Text="Leer más información" Clicked="btnPython_Clicked" />
+                    </StackLayout>
+                </Frame>
+
+                <!-- Java -->
+                <Frame WidthRequest="310">
+                    <StackLayout>
+                        <Label Text="Java" Style="{StaticResource TitleLabel}" />
+                        <Label Text="Java es un lenguaje de programación robusto y orientado a objetos." />
+                        <Label Text="Destaca en: Desarrollo de aplicaciones empresariales y Android." />
+                        <Label Text="IDE recomendado: IntelliJ IDEA, Eclipse, NetBeans." />
+                        <Label Text="Creado en: 1995, por James Gosling." />
+
+                        <Image Source="https://download.logo.wine/logo/Java_(programming_language)/Java_(programming_language)-Logo.wine.png"
+                                WidthRequest="280"
+                                HeightRequest="200" />
+
+                        <Button Text="Leer más información" Clicked="btnJava_Clicked" />
+                    </StackLayout>
+                </Frame>
+
+                <!-- C# -->
+                <Frame WidthRequest="310">
+                    <StackLayout>
+                        <Label Text="C#" Style="{StaticResource TitleLabel}" />
+                        <Label Text="C# es un lenguaje moderno y flexible desarrollado por Microsoft." />
+                        <Label Text="Destaca en: Desarrollo de aplicaciones de escritorio, web y videojuegos." />
+                        <Label Text="IDE recomendado: Visual Studio." />
+                        <Label Text="Creado en: 2000, por Anders Hejlsberg." />
+
+                        <Image Source="https://e7.pngegg.com/pngimages/328/221/png-clipart-c-programming-language-logo-microsoft-visual-studio-net-framework-javascript-icon-purple-logo.png"
+                               WidthRequest="280"
+                               HeightRequest="200" />
+
+                        <Button Text="Leer más información" Clicked="btnCSharp_Clicked" />
+                    </StackLayout>
+                </Frame>
+
+                <!-- Aplicaciones Android -->
+                <Frame WidthRequest="310">
+                    <StackLayout>
+                        <Label Text="Lenguajes para Android" Style="{StaticResource TitleLabel}" />
+                        <Label Text="El lenguaje más utilizado para Android es Kotlin, seguido por Java." />
+                        <Label Text="Destaca en: Desarrollo de aplicaciones móviles." />
+                        <Label Text="IDE recomendado: Android Studio." />
+
+                        <Image Source="https://w7.pngwing.com/pngs/481/900/png-transparent-kotlin-programming-android-app-development-mobile-3d-icon.png"
+                               WidthRequest="280"
+                               HeightRequest="200" />
+
+                        <Button Text="Leer más información" Clicked="btnAndroid_Clicked" />
+                    </StackLayout>
+                </Frame>
+
+                <!-- Aplicaciones iOS -->
+                <Frame WidthRequest="310">
+                    <StackLayout>
+                        <Label Text="Lenguajes para iOS" Style="{StaticResource TitleLabel}" />
+                        <Label Text="El lenguaje principal es Swift, seguido de Objective-C." />
+                        <Label Text="Destaca en: Desarrollo de aplicaciones móviles para iOS." />
+                        <Label Text="IDE recomendado: Xcode." />
+
+                        <Image Source="https://icon-library.com/images/swift-icon/swift-icon-10.jpg"
+                               WidthRequest="280"
+                               HeightRequest="200" />
+
+                        <Button Text="Leer más información" Clicked="btniOS_Clicked" />
+                    </StackLayout>
+                </Frame>
+
+                <!-- Xamarin -->
+                <Frame WidthRequest="310">
+                    <StackLayout>
+                        <Label Text="Xamarin" Style="{StaticResource TitleLabel}" />
+                        <Label Text="Xamarin es una plataforma para desarrollar aplicaciones móviles multiplataforma." />
+                        <Label Text="Permite compartir código en C# para Android e iOS." />
+                        <Label Text="IDE recomendado: Visual Studio." />
+                        <Label Text="Propiedad de Microsoft." />
+
+                        <Image Source="https://w7.pngwing.com/pngs/879/713/png-transparent-xamarin-logo-xamarin-xamarin-social-media-logo-software-logo-social-media-logo-logo-3d-icon.png"
+                               WidthRequest="280"
+                               HeightRequest="200" />
+                        
+                        <Button Text="Leer más información" Clicked="btnXamarin_Clicked" />
+                    </StackLayout>
+                </Frame>
+
+            </FlexLayout>
+
+        </ScrollView>
+
+        <Button BorderColor="White"
+                BackgroundColor="Black"
+                Text="Mas Proyectos GitHub | Juan Sanchez"
+                TextColor="White"
+                CornerRadius="10"
+                Padding="10"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="EndAndExpand"
+                WidthRequest="300"
+                HeightRequest="60"
+                Clicked="OnGitHubButtonClicked">
+        </Button>
+
+    </StackLayout>
+
+</ContentPage>
