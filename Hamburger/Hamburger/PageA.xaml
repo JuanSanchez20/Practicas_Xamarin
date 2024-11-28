@@ -1,12 +1,115 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Hamburger.PageA">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Hola desde la Página A"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+             x:Class="Hamburger.PageA"
+             BackgroundColor="#f4f4f4">
+    <ContentPage.Resources>
+        
+        <!-- Estilo para los Labels -->
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="FontSize" Value="Medium" />
+            <Setter Property="Margin" Value="0, 4" />
+        </Style>
+        <!-- Estilos para los inputs-->
+        <Style TargetType="Entry">
+            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="FontSize" Value="Medium" />
+            <Setter Property="Margin" Value="0, 4" />
+        </Style>
+
+        <Style TargetType="Editor">
+            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="FontSize" Value="Medium" />
+            <Setter Property="Margin" Value="0, 4" />
+        </Style>
+    </ContentPage.Resources>
+    <!-- StackLayout raíz que contendrá tanto el encabezado como el formulario -->
+    <StackLayout Padding="20">
+        <!-- Encabezado -->
+        <StackLayout Padding="20,0,20,5">
+            <Label Text="Registro de Producto"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="#2c3e50" />
         </StackLayout>
-    </ContentPage.Content>
+
+        <!-- Formulario de registro dentro del ScrollView -->
+        <ScrollView>
+            <!-- Frame para el formulario completo con bordes redondeados y color más oscuro -->
+            <Frame Padding="20" Margin="0,5" BorderColor="#0277BD" HasShadow="True" CornerRadius="15" BackgroundColor="#E3F2FD">
+                <StackLayout>
+                    <!-- Imagen del producto -->
+                    <StackLayout Orientation="Horizontal" Spacing="10">
+                        <Label Text="Imagen del Producto"
+                           VerticalOptions="Center" 
+                           HorizontalOptions="Start"
+                           FontSize="18" />
+                        <Image x:Name="productImage" 
+                           HeightRequest="100" 
+                           WidthRequest="100" 
+                           BackgroundColor="#ecf0f1" 
+                           HorizontalOptions="End"
+                           Aspect="AspectFill"/>
+                    </StackLayout>
+
+                    <!-- Botón para seleccionar la imagen -->
+                    <Button Text="Seleccionar Imagen"
+                        BackgroundColor="#3498db"
+                        TextColor="White"
+                        CornerRadius="15"
+                        Margin="0,10"
+                        Clicked="OnSelectImageClicked" />
+
+                    <!-- Nombre del producto (Usando Frame) -->
+                    <Frame Padding="0" Margin="0,10" BorderColor="#bdc3c7" HasShadow="False" CornerRadius="5">
+                        <Entry x:Name="productNameEntry" 
+                           Placeholder="Nombre del Producto"
+                           FontSize="18"
+                           BackgroundColor="White"/>
+                    </Frame>
+
+                    <!-- Descripción del producto (Usando Frame) -->
+                    <Frame Padding="0" Margin="0,10" BorderColor="#bdc3c7" HasShadow="False" CornerRadius="5">
+                        <Editor x:Name="productDescriptionEditor" 
+                            Placeholder="Descripción del Producto"
+                            HeightRequest="100"
+                            BackgroundColor="White"/>
+                    </Frame>
+
+                    <!-- Precio del producto (Usando Frame) -->
+                    <Frame Padding="0" Margin="0,10" BorderColor="#bdc3c7" HasShadow="False" CornerRadius="5">
+                        <Entry x:Name="productPriceEntry" 
+                           Placeholder="Precio del Producto"
+                           Keyboard="Numeric"
+                           FontSize="18"
+                           BackgroundColor="White"/>
+                    </Frame>
+
+                    <!-- Botón para registrar el producto -->
+                    <Button Text="Registrar Producto"
+                        BackgroundColor="#2ecc71"
+                        TextColor="White"
+                        CornerRadius="15"
+                        Clicked="OnRegisterProductClicked" 
+                        Margin="0,20"/>
+                </StackLayout>
+            </Frame>
+        </ScrollView>
+    </StackLayout>
+
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Vertical" HorizontalOptions="Center">
+            <Label Text="Add Products"
+               TextColor="White"
+               FontSize="20"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+            <BoxView Color="White"
+                 HeightRequest="1"
+                 HorizontalOptions="FillAndExpand"
+                 Margin="10,0"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
 </ContentPage>

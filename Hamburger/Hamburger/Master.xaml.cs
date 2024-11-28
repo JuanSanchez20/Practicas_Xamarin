@@ -16,19 +16,26 @@ namespace Hamburger
             {
                 new MasterPageItem
                 {
-                    Title = "PA",
+                    Title = "Home",
                     IconSource = "icon.png",
+                    TargetType = typeof(Detail)
+                },
+                new MasterPageItem
+                {
+                    Title = "Registrar Productos",
+                    IconSource = "product_icon.png",
                     TargetType = typeof(PageA)
                 },
                 new MasterPageItem
                 {
-                    Title = "PB",
-                    IconSource = "icon.png",
+                    Title = "Registrar Usuarios",
+                    IconSource = "user_icon.jpg",
                     TargetType = typeof(PageB)
                 },
                 new MasterPageItem
                 {
                     Title = "Salir",
+                    BackgroundColor = Color.Red,
                     IconSource = "icon_exit.png", // Opcional, si tienes un ícono para salir
                     Action = async () =>
                     {

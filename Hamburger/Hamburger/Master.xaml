@@ -10,7 +10,24 @@
                       ItemSelected="ListView_OnItemSelected">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ImageCell Text="{Binding Title}" ImageSource="{Binding IconSource}" />
+                        <ViewCell>
+                            <Grid Padding="2">
+                                <Frame BackgroundColor="{Binding BackgroundColor}" 
+                                       CornerRadius="10" 
+                                       HasShadow="True" 
+                                       Padding="10">
+                                    <StackLayout Orientation="Horizontal">
+                                        <Image Source="{Binding IconSource}" 
+                                               WidthRequest="24" HeightRequest="24" 
+                                               VerticalOptions="Center" />
+                                        <Label Text="{Binding Title}" 
+                                               VerticalOptions="Center" 
+                                               TextColor="Black" 
+                                               Margin="10,0"/>
+                                    </StackLayout>
+                                </Frame>
+                            </Grid>
+                        </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

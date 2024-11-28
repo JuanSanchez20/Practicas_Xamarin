@@ -11,7 +11,11 @@ namespace Hamburger
         {
             InitializeComponent();
             Master = new Master();
-            Detail = new NavigationPage(new Detail());
+            Detail = new NavigationPage(new Detail())
+            {
+                BarBackgroundColor = Color.Black,
+                BarTextColor = Color.White
+            };
 
             App.MasterDetail = this;
         }
