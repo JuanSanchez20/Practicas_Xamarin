@@ -16,20 +16,19 @@ namespace Hamburger
             {
                 new MasterPageItem
                 {
-                    Title = "PA",
-                    IconSource = "icon.png",
+                    Title = "Registrar Productos",
+                    IconSource = "product_icon.png",
                     TargetType = typeof(PageA)
                 },
                 new MasterPageItem
                 {
-                    Title = "PB",
-                    IconSource = "icon.png",
+                    Title = "Registrar Usuarios",
+                    IconSource = "user_icon.jpg",
                     TargetType = typeof(PageB)
                 },
                 new MasterPageItem
                 {
                     Title = "Salir",
-                    IconSource = "icon_exit.png", // Opcional, si tienes un ícono para salir
                     Action = async () =>
                     {
                         // Lógica de salida, como cerrar la sesión o salir de la app
