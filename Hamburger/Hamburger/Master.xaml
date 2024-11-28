@@ -5,12 +5,36 @@
              Title="Master">
     <ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand" Padding="30">
+            <Label Text="Opciones" TextColor="White" FontSize="36"/>
             <ListView x:Name="listView" VerticalOptions="FillAndExpand" 
                       SeparatorVisibility="None"
                       ItemSelected="ListView_OnItemSelected">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ImageCell Text="{Binding Title}" ImageSource="{Binding IconSource}" />
+                        <ViewCell>
+                            <Grid Padding="2">
+                                <Frame BackgroundColor="{Binding BackgroundColor}" 
+                                       CornerRadius="10" 
+                                       HasShadow="True" 
+                                       Padding="10" 
+                                       HeightRequest="60" 
+                                       >
+                                    <!-- Aseguramos que el Frame tenga una altura mínima -->
+                                    <StackLayout Orientation="Horizontal" 
+                                                 VerticalOptions="CenterAndExpand"
+                                                 HorizontalOptions="FillAndExpand">
+                                        <Image Source="{Binding IconSource}" 
+                                               WidthRequest="24" HeightRequest="24" 
+                                               VerticalOptions="Center" />
+                                        <Label Text="{Binding Title}" 
+                                               VerticalOptions="Center" 
+                                               TextColor="Black" 
+                                               Margin="10,0" 
+                                               FontSize="Medium"/>
+                                    </StackLayout>
+                                </Frame>
+                            </Grid>
+                        </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

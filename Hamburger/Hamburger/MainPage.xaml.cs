@@ -12,7 +12,6 @@ namespace Hamburger
             InitializeComponent();
             Master = new Master();
             Detail = new NavigationPage(new Detail());
-
             App.MasterDetail = this;
         }
     }

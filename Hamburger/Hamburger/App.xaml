@@ -3,6 +3,26 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Hamburger.App">
     <Application.Resources>
-
+        <ResourceDictionary>
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="Black" />
+                <Setter Property="BarTextColor" Value="White" />
+                <Setter Property="TitleView">
+                    <Setter.Value>
+                        <StackLayout Orientation="Vertical" HorizontalOptions="Center">
+                            <Label Text="Opciones" 
+                                   TextColor="White"
+                                   FontSize="20"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center" />
+                            <BoxView Color="White"
+                                     HeightRequest="1"
+                                     HorizontalOptions="FillAndExpand"
+                                     Margin="10,0"/>
+                        </StackLayout>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

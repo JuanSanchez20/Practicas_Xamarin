@@ -16,12 +16,14 @@
             <Setter Property="TextColor" Value="Black" />
             <Setter Property="FontSize" Value="Medium" />
             <Setter Property="Margin" Value="0, 4" />
+            <Setter Property="PlaceholderColor" Value="#D1D0D0" />
         </Style>
 
         <Style TargetType="Editor">
             <Setter Property="TextColor" Value="Black" />
-            <Setter Property="FontSize" Value="Medium" />
+            <Setter Property="FontSize" Value="Large" />
             <Setter Property="Margin" Value="0, 4" />
+            <Setter Property="PlaceholderColor" Value="#D1D0D0" />
         </Style>
     </ContentPage.Resources>
     <!-- StackLayout raíz que contendrá tanto el encabezado como el formulario -->

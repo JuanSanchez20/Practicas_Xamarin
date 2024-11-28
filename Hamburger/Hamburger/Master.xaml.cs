@@ -29,6 +29,7 @@ namespace Hamburger
                 new MasterPageItem
                 {
                     Title = "Salir",
+                    BackgroundColor = Color.Red,
                     Action = async () =>
                     {
                         // Lógica de salida, como cerrar la sesión o salir de la app
